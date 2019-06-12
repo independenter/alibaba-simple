@@ -6,19 +6,47 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="B-operations-maintenance-tool" />
-        <module name="Business-Support-Platform" />
-        <module name="Intelligent-Knowledge-Base" />
-        <module name="Service Operating Platform" />
+        <module name="B-Maintain" />
+        <module name="B-monitor" />
+        <module name="B-test" />
+        <module name="BSP-api" />
+        <module name="BSP-base" />
+        <module name="BSP-client" />
+        <module name="BSP-edge" />
+        <module name="BSP-extend" />
+        <module name="IKB-api" />
+        <module name="IKB-collection" />
+        <module name="IKB-library" />
+        <module name="IKB-matcher" />
+        <module name="SOP-api" />
+        <module name="SOP-manager" />
+        <module name="SOP-monitor" />
+        <module name="SOP-point" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="B-Maintain" target="1.8" />
+      <module name="B-monitor" target="1.8" />
       <module name="B-operations-maintenance-tool" target="1.8" />
+      <module name="B-test" target="1.8" />
+      <module name="BSP-api" target="1.8" />
+      <module name="BSP-base" target="1.8" />
+      <module name="BSP-client" target="1.8" />
+      <module name="BSP-edge" target="1.8" />
+      <module name="BSP-extend" target="1.8" />
       <module name="Business-Support-Platform" target="1.8" />
+      <module name="IKB-api" target="1.8" />
+      <module name="IKB-collection" target="1.8" />
+      <module name="IKB-library" target="1.8" />
+      <module name="IKB-matcher" target="1.8" />
       <module name="Intelligent-Knowledge-Base" target="1.8" />
       <module name="message-util" target="1.8" />
       <module name="Service Operating Platform" target="1.8" />
       <module name="simple" target="1.8" />
+      <module name="SOP-api" target="1.8" />
+      <module name="SOP-manager" target="1.8" />
+      <module name="SOP-monitor" target="1.8" />
+      <module name="SOP-point" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding" addBOMForNewFiles="with NO BOM" />
@@ -43,9 +71,25 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/B-operations-maintenance-tool/B-Maintain/B-Maintain.iml" filepath="$PROJECT_DIR$/B-operations-maintenance-tool/B-Maintain/B-Maintain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B-operations-maintenance-tool/B-monitor/B-monitor.iml" filepath="$PROJECT_DIR$/B-operations-maintenance-tool/B-monitor/B-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/B-operations-maintenance-tool/B-operations-maintenance-tool.iml" filepath="$PROJECT_DIR$/B-operations-maintenance-tool/B-operations-maintenance-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B-operations-maintenance-tool/B-test/B-test.iml" filepath="$PROJECT_DIR$/B-operations-maintenance-tool/B-test/B-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/BSP-api/BSP-api.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/BSP-api/BSP-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/BSP-base/BSP-base.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/BSP-base/BSP-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/BSP-client/BSP-client.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/BSP-client/BSP-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/BSP-edge/BSP-edge.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/BSP-edge/BSP-edge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/BSP-extend/BSP-extend.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/BSP-extend/BSP-extend.iml" />
       <module fileurl="file://$PROJECT_DIR$/Business-Support-Platform/Business-Support-Platform.iml" filepath="$PROJECT_DIR$/Business-Support-Platform/Business-Support-Platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-api/IKB-api.iml" filepath="$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-api/IKB-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-collection/IKB-collection.iml" filepath="$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-collection/IKB-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-library/IKB-library.iml" filepath="$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-library/IKB-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-matcher/IKB-matcher.iml" filepath="$PROJECT_DIR$/Intelligent-Knowledge-Base/IKB-matcher/IKB-matcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/Intelligent-Knowledge-Base/Intelligent-Knowledge-Base.iml" filepath="$PROJECT_DIR$/Intelligent-Knowledge-Base/Intelligent-Knowledge-Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service Operating Platform/SOP-api/SOP-api.iml" filepath="$PROJECT_DIR$/Service Operating Platform/SOP-api/SOP-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service Operating Platform/SOP-manager/SOP-manager.iml" filepath="$PROJECT_DIR$/Service Operating Platform/SOP-manager/SOP-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service Operating Platform/SOP-monitor/SOP-monitor.iml" filepath="$PROJECT_DIR$/Service Operating Platform/SOP-monitor/SOP-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service Operating Platform/SOP-point/SOP-point.iml" filepath="$PROJECT_DIR$/Service Operating Platform/SOP-point/SOP-point.iml" />
       <module fileurl="file://$PROJECT_DIR$/Service Operating Platform/Service Operating Platform.iml" filepath="$PROJECT_DIR$/Service Operating Platform/Service Operating Platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple.iml" filepath="$PROJECT_DIR$/simple.iml" />
     </modules>
@@ -58,5 +102,51 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: org.springframework:spring-beans:5.1.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:5.1.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jcl:5.1.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.1.3.RELEASE/spring-jcl-5.1.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.1.3.RELEASE/spring-jcl-5.1.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.1.3.RELEASE/spring-jcl-5.1.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-web:5.1.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
 </project>

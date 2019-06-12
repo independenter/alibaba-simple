@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Service Operating Platform</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>SOP-manager</module>
+        <module>SOP-monitor</module>
+        <module>SOP-api</module>
+        <module>SOP-point</module>
+    </modules>
 
 
 </project>

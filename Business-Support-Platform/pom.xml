@@ -8,8 +8,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <description>业务支撑平台，主要包含基础、扩展、业务、客户端</description>
     <artifactId>Business-Support-Platform</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>BSP-base</module>
+        <module>BSP-extend</module>
+        <module>BSP-api</module>
+        <module>BSP-client</module>
+        <module>BSP-edge</module>
+    </modules>
 
 
 </project>

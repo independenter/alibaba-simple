@@ -8,8 +8,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <description>智能知识库 主要包含api、智能采集、智能匹配推荐、库操作</description>
     <artifactId>Intelligent Knowledge Base</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>IKB-api</module>
+        <module>IKB-matcher</module>
+        <module>IKB-collection</module>
+        <module>IKB-library</module>
+    </modules>
 
 
 </project>
