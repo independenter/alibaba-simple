@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Service Operating Platform</artifactId>
+        <groupId>com.alibaba</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <description>服务运营平台的切点，用来切入程序，进行日志收集、最终一致性等工作</description>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>SOP-point</artifactId>
+
+
+</project>
