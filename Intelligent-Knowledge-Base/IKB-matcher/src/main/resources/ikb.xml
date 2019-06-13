@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:matcher="http://www.springframework.org/schema/matcher"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/matcher/matcher-1.0.xsd">
+
+    <matcher:user id="1" age="18" movie="断桥残雪" score="4.2">
+    </matcher:user>
+</beans>

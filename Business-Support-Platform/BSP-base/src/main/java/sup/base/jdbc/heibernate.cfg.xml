@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="driver">com.mysql.jdbc.Driver</property>
+        <property name="url">jdbc:mysql://localhost:3306/recruit?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=UTF-8</property>
+        <property name="username">root</property>
+        <property name="password">123456</property>
+
+        <!-- 配置Hbernate的方言 -->
+        <!--<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>-->
+        <property name="hibernate.dialect">javat.view.spring.jdbc.MySQLDialect</property>
+
+        <mapping resource="javat/view/spring/jdbc/Role.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

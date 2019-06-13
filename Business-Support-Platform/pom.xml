@@ -17,6 +17,8 @@
         <module>BSP-api</module>
         <module>BSP-client</module>
         <module>BSP-edge</module>
+        <module>BSP-extend-python</module>
+        <module>BSP-extent-cloud</module>
     </modules>
 
 

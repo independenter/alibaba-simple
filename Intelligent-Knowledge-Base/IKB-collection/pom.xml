@@ -9,6 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>智能知识库的采集模块，用来进行知识采集</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>IKB-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
     <artifactId>IKB-collection</artifactId>
 
 
