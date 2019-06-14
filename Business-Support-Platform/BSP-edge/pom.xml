@@ -82,9 +82,9 @@
             <artifactId>netty-all</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.4.13</version>
+           <groupId>org.apache.zookeeper</groupId>
+           <artifactId>zookeeper</artifactId>
+           <version>[3.4.13,)</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
