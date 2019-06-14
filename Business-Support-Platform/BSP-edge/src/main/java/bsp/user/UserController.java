@@ -18,7 +18,7 @@ import sup.user.UserService;
 public class UserController {
 
     //@Autowired
-    @Reference(registry = "zookeeper://127.0.0.1:2181")
+    @Reference(registry = "zookeeper://127.0.0.1:2181",mock = "true",check = false)
     private UserService userService;
 
     @Autowired

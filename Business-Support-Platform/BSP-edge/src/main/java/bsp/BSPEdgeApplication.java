@@ -1,5 +1,4 @@
 package bsp;
-import com.alibaba.dubbo.common.logger.LoggerFactory;
 import bsp.client.LoginFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
