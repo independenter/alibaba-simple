@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BashSupportProjectSettings">
+    <option name="projectInterpreter" value="D:\GIT\bin\bash.exe" />
+  </component>
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -266,6 +269,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.boot:nacos-config-spring-boot-actuator:0.2.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-actuator/0.2.1/nacos-config-spring-boot-actuator-0.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-actuator/0.2.1/nacos-config-spring-boot-actuator-0.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-actuator/0.2.1/nacos-config-spring-boot-actuator-0.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba.boot:nacos-config-spring-boot-starter:0.2.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-starter/0.2.1/nacos-config-spring-boot-starter-0.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-starter/0.2.1/nacos-config-spring-boot-starter-0.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/boot/nacos-config-spring-boot-starter/0.2.1/nacos-config-spring-boot-starter-0.2.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.alibaba:dubbo:2.6.6">
@@ -1432,6 +1457,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-devtools:2.1.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.1.1.RELEASE/spring-boot-devtools-2.1.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.1.1.RELEASE/spring-boot-devtools-2.1.1.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.1.1.RELEASE/spring-boot-devtools-2.1.1.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.1.1.RELEASE">
