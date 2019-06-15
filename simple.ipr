@@ -777,17 +777,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: io.netty:netty:3.10.6.Final">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: io.projectreactor:reactor-core:3.2.3.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.3.RELEASE/reactor-core-3.2.3.RELEASE.jar!/" />
@@ -852,17 +841,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: jline:jline:0.9.94">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/jline/jline/0.9.94/jline-0.9.94-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: junit:junit:4.12">
@@ -1228,15 +1206,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.apache.zookeeper:zookeeper:3.4.13">
+    <library name="Maven: org.apache.zookeeper:zookeeper-jute:3.5.5">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.zookeeper:zookeeper:3.5.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.aspectj:aspectjweaver:1.9.2">

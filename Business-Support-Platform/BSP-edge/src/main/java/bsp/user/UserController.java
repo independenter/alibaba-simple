@@ -6,6 +6,7 @@ import bsp.response.Response;
 import bsp.util.DefaultUtils;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
+//import com.whalin.MemCached.MemCachedClient;
 import org.apache.commons.lang.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,8 @@ public class UserController {
 
     @Autowired
     private RedisClient redisClient;
+//    @Autowired
+//    private MemCachedClient memCachedClient;
 
     public static void main(String[] args) throws Exception {
         System.setProperty("java.net.preferIPv4Stack", "true");
@@ -65,10 +68,12 @@ public class UserController {
                     cache.put(username,token);
                     user = userService.getUserById(1);
                     redisClient.set(token,user,3600);
+                    //memCachedClient.set(token,user,3600);
                 }
             }
         }
         user = redisClient.get(token);
+        //user = (User)memCachedClient.get(token);
         if(user==null) return Response.USERNAME_PASSWORD_INVALID;
         if(!user.getPassword().equalsIgnoreCase(DefaultUtils.md5(password)))
             return Response.USERNAME_PASSWORD_INVALID;
