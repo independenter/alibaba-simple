@@ -19,6 +19,10 @@
         <module>BSP-edge</module>
         <module>BSP-extend-python</module>
         <module>BSP-extent-cloud</module>
+        <module>BSP-config-nacos</module>
+        <module>BSP-config-cloud-server</module>
+        <module>BSP-config-cloud-client</module>
+        <module>BSP-config-cloud-server</module>
     </modules>
 
 

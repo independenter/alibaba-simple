@@ -16,6 +16,8 @@
         <module>SOP-monitor</module>
         <module>SOP-api</module>
         <module>SOP-point</module>
+        <module>SOP-manager-sop.eureka</module>
+        <module>SOP-manager-sop.eureka</module>
     </modules>
 
     <dependencyManagement>

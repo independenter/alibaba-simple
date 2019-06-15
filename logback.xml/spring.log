@@ -1,0 +1,100 @@
+2019-06-15 20:22:23.523  INFO 4736 --- [main] sop.eureka.EurekaServerApplication           : Starting EurekaServerApplication on PC-20190110GGOM with PID 4736 (started by Administrator in D:\springboot\simple)
+2019-06-15 20:22:23.526  INFO 4736 --- [main] sop.eureka.EurekaServerApplication           : The following profiles are active: sop.eureka
+2019-06-15 20:22:24.661  WARN 4736 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'eurekaRegistration' defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]] for bean 'eurekaRegistration': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]] bound.
+2019-06-15 20:22:24.679  INFO 4736 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-15 20:22:24.683 ERROR 4736 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'eurekaRegistration', defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-06-15 20:25:06.777  INFO 7648 --- [main] sop.eureka.EurekaServerApplication           : Starting EurekaServerApplication on PC-20190110GGOM with PID 7648 (started by Administrator in D:\springboot\simple)
+2019-06-15 20:25:06.781  INFO 7648 --- [main] sop.eureka.EurekaServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-15 20:25:07.861  WARN 7648 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'eurekaRegistration' defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]] for bean 'eurekaRegistration': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]] bound.
+2019-06-15 20:25:07.875  INFO 7648 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-15 20:25:07.878 ERROR 7648 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'eurekaRegistration', defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-06-15 20:26:48.979  INFO 5840 --- [main] sop.eureka.EurekaServerApplication           : Starting EurekaServerApplication on PC-20190110GGOM with PID 5840 (started by Administrator in D:\springboot\simple)
+2019-06-15 20:26:48.987  INFO 5840 --- [main] sop.eureka.EurekaServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-15 20:26:50.106  WARN 5840 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'eurekaRegistration' defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]] for bean 'eurekaRegistration': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]] bound.
+2019-06-15 20:26:50.122  INFO 5840 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-15 20:26:50.125 ERROR 5840 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'eurekaRegistration', defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-06-15 20:27:07.334  INFO 9640 --- [main] sop.eureka.EurekaServerApplication           : Starting EurekaServerApplication on PC-20190110GGOM with PID 9640 (started by Administrator in D:\springboot\simple)
+2019-06-15 20:27:07.339  INFO 9640 --- [main] sop.eureka.EurekaServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-15 20:27:08.428  WARN 9640 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'eurekaRegistration' defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]] for bean 'eurekaRegistration': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]] bound.
+2019-06-15 20:27:08.446  INFO 9640 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-15 20:27:08.448 ERROR 9640 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'eurekaRegistration', defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-06-15 20:28:46.150  INFO 9700 --- [main] sop.eureka.EurekaServerApplication           : Starting EurekaServerApplication on PC-20190110GGOM with PID 9700 (started by Administrator in D:\springboot\simple)
+2019-06-15 20:28:46.154  INFO 9700 --- [main] sop.eureka.EurekaServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-15 20:28:47.345  WARN 9700 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'eurekaRegistration' defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class]] for bean 'eurekaRegistration': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.sop.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration; factoryMethodName=eurekaRegistration; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]] bound.
+2019-06-15 20:28:47.364  INFO 9700 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-15 20:28:47.367 ERROR 9700 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'eurekaRegistration', defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$EurekaClientConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/cloud/netflix/sop.eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
