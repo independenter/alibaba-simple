@@ -11,5 +11,6 @@
 
     <artifactId>BSP-extent-cloud</artifactId>
 
-
+    <dependencies>
+    </dependencies>
 </project>
