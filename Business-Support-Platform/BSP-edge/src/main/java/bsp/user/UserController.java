@@ -4,6 +4,8 @@ import bsp.redis.RedisClient;
 import bsp.response.LoginResponse;
 import bsp.response.Response;
 import bsp.util.DefaultUtils;
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
 import org.apache.commons.lang.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +15,8 @@ import org.springframework.web.bind.annotation.*;
 import sup.user.User;
 import sup.user.UserService;
 
+import java.util.concurrent.TimeUnit;
+
 @Controller
 @RequestMapping("/user")
 public class UserController {
@@ -20,6 +24,11 @@ public class UserController {
     //@Autowired
     @Reference(registry = "zookeeper://127.0.0.1:2181",mock = "true",check = false)
     private UserService userService;
+
+    private static Cache<String, String> cache = CacheBuilder.newBuilder().maximumSize(10000)
+            .expireAfterWrite(3, TimeUnit.MINUTES).build();
+
+    private static  final Object LOCK = new Object();
 
     @Autowired
     private RedisClient redisClient;
@@ -46,12 +55,23 @@ public class UserController {
     @ResponseBody
     public Response login(@RequestParam String username,
                           @RequestParam("password")String password){
-        User user = userService.getUserById(1);
+        String token = cache.getIfPresent(username);
+        User user = null;
+        if (token==null){
+            synchronized (LOCK) {
+                token = cache.getIfPresent(username);
+                if (token==null) {
+                    token = DefaultUtils.genToken();
+                    cache.put(username,token);
+                    user = userService.getUserById(1);
+                    redisClient.set(token,user,3600);
+                }
+            }
+        }
+        user = redisClient.get(token);
         if(user==null) return Response.USERNAME_PASSWORD_INVALID;
         if(!user.getPassword().equalsIgnoreCase(DefaultUtils.md5(password)))
             return Response.USERNAME_PASSWORD_INVALID;
-        String token = DefaultUtils.genToken();
-        redisClient.set(token,user,3600);
         return new LoginResponse(token);
     }
 
